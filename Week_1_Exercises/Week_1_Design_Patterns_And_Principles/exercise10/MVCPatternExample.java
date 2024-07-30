@@ -84,7 +84,7 @@ public class MVCPatternExample {
 
     // Main class to test the MVC implementation
     public static void main(String[] args) {
-        Student student = new Student("1", "Bhargava", "B");
+        Student student = new Student("1", "Kella", "C");
         StudentView view = new StudentView();
         StudentController controller = new StudentController(student, view);
 
